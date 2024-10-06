@@ -36,7 +36,7 @@ export const ProductReviewArray = () => {
            
            {reviews.map(review=>{
                return(
-                   <ProductReviw name={review.name} image={review.image}  review={review.review} rating={review.rating}/>
+                   <ProductReviw name={review.name} image={review.image}  review={review.review} rating={review.rating} key={review.name}/>
        
                )
            })}
