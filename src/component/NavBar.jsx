@@ -16,7 +16,7 @@ export const NavBar = () => {
    <div className='lg:bg-cover bg-blend-saturation w-screen max-w-full absolute' >
      <div className="flex lg:space-x-48 bg-transparent pt-3 px-4 md:px-10 font-poppins  max-w-md md:max-w-4xl lg:max-w-7xl  items-center  mx-auto justify-between  lg:justify-start " >
       <div className="flex items-center space-x-4">
-        <img src={logo} alt="Logo" className="w-20 h-16" />
+        <img src={logo} alt="Logo" className="w-20 h-16" loading='lazy' />
       </div>
 
       {/* Desktop Navigation */}

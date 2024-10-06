@@ -26,7 +26,7 @@ export const ProductReviw = ({ image, review, name, rating }) => {
     return (
         <div className='shadow-lg p-6 flex flex-row sm:flex-col justify-between items-start space-y-5  '>
             <div className='w-full sm:h-1/2 h-48  overflow-hidden '>
-                <img src={image} alt={name} className='h-full w-full object-cover' />
+                <img src={image} alt={name} className='h-full w-full object-cover' loading='lazy' />
             </div>
             <div className='w-full sm:h-1/2 space-y-3 flex-col flex'>
                 <p className='text-[#4D533C] italic font-thin h-3/5 text-sm sm:text-base'>{review}</p>

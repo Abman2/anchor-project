@@ -6,7 +6,7 @@ export const AboutProduct = () => {
      return (
           <div className='grid w-max-md w-screen p-4 md:grid-flow-col py-20 md:max-w-4xl lg:max-w-7xl mx-auto lg:ms-auto gap-10 place-items-center space-x-'>
                <div className=''>
-                    <img src={image} alt='' className='' />
+                    <img src={image} alt='' className='' loading='lazy' />
                </div>
                <div className='space-y-5 lg:w-7/12 mx-auto'>
                     <h1 className='font-black text-[#12305B] text-3xl md:text-4xl'>About Product</h1>

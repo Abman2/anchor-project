@@ -16,7 +16,7 @@ export const OurMission = () => {
             </ul>
         </div>
         <div>
-            <img src={image} alt="" />
+            <img src={image} alt="" loading='lazy' />
         </div>
     </div>
   )

@@ -40,7 +40,7 @@ export const CeoGreetings = () => {
             {greeting.text}
           </p>
           <div className='flex items-center space-x-4 md:space-x-5 '>
-            <img src={greeting.avatar} alt={greeting.name} className='rounded-full w-16 h-16 md:w-20 md:h-20' />
+            <img src={greeting.avatar} alt={greeting.name} className='rounded-full w-16 h-16 md:w-20 md:h-20'  loading='lazy'/>
             <div>
               <p className='text-[#4D533C] font-bold text-lg'>{greeting.name}</p>
               <p className='text-[#152934] text-sm md:text-base'>{greeting.position}</p>

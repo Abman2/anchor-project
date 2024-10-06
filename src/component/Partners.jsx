@@ -12,7 +12,7 @@ export const Partners = () => {
     <div className='bg-white flex   py-2 lg:py-6 float-end relative -top-3 lg:-top-12 shadow-md items-center justify-around w-4/5 '>
         {partners.map((partner,index)=>{
             return(
-                <img src={partner} alt={index} key={index} className='lg:h-8 h-3'/>
+                <img src={partner} alt={index} key={index} className='lg:h-8 h-3' loading='lazy'/>
             )
            
         })}
