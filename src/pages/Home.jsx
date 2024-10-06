@@ -5,7 +5,7 @@ import { CommentSection } from '../component/CommentSection'
 import { Story } from '../component/Story'
 import { ShopNowSection } from '../component/ShopNowSection'
 import { OurMission } from '../component/OurMission'
-import { VisitOurShop } from '../component/visitOurShop'
+import { VisitOurShop } from '../component/VisitOurShop'
 import { ProductReviewArray } from '../component/ProductReviewArray'
 import header from "../assets/header.png"
 
